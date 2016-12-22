@@ -1,0 +1,21 @@
+{
+  "name": "mjml-starter-kit",
+  "author": "Ricardo Canelas",
+  "private": true,
+  "scripts": {
+    "gulp": "gulp",
+    "start": "npm run gulp watch",
+    "build": "npm run gulp build"
+  },
+  "engines": {
+    "node": ">= 4.5"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.5",
+    "gulp": "^3.9.1",
+    "gulp-mjml": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "mjml": "^3.1.1",
+    "through2": "^2.0.0"
+  }
+}
