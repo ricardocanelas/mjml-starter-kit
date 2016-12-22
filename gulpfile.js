@@ -8,9 +8,8 @@ var mjmlEngine = require('mjml');
 
 
 /*---------------------------------------------------------------------------
- * Browser Sync
+ * Build
  ---------------------------------------------------------------------------*/
-
 gulp.task('build', function () {
     return gulp.src('./templates/**/*.mjml')
         .pipe(mjml(mjmlEngine))
